@@ -7,8 +7,8 @@ const Coin = (props) => {
   return (
     <div className="Coin-container">
       <div className={`Coin ${props.donuyor ? 'Coin-rotate' : ''}`}>
-        <img src={CoinTura} alt='2 euro coin Finland head' className={(props.side === 'yazi' ? 'Coin-back' : 'Coin-front')} />
-        <img src={CoinYazi} alt='2 euro coin Finland tail' className={(props.side === 'yazi' ? 'Coin-front' : 'Coin-back')} />
+        <img src={CoinTura} className={(props.side === 'yazi' ? 'Coin-back' : 'Coin-front')} />
+        <img src={CoinYazi} className={(props.side === 'yazi' ? 'Coin-front' : 'Coin-back')} />
       </div>
     </div>
   )
