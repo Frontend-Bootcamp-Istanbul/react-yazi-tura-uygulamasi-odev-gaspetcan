@@ -25,6 +25,3 @@
 .Coin-front {
   z-index: 2;
 }
-.Coin-back {
-	transform: rotateY(180deg);
-}

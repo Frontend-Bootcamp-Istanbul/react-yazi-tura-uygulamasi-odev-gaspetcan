@@ -1,13 +1,15 @@
 import React from 'react';
-import './App.css';
-import CoinFlipper from './CoinFlipper';
+import "./App.css";
+import FlipACoin from './FlipACoin';
 
-function App() {
-  return (
-    <div className="App">
-      <CoinFlipper />
-    </div>
-  );
+class App extends  React.Component {
+    render(){
+        return (
+            <div className="App">
+            <FlipACoin/>
+            </div>
+        );
+    }
 }
 
 export default App;
